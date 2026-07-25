@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081d33"/>
+      <stop offset="100%" stop-color="#13345f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="320" rx="24" fill="url(#bg7)"/>
+  <path d="M90 80 C130 20 270 20 310 80" fill="none" stroke="#8cd3ff" stroke-width="12"/>
+  <path d="M90 240 C130 300 270 300 310 240" fill="none" stroke="#8cd3ff" stroke-width="12"/>
+  <g stroke="#d0f2ff" stroke-width="8" stroke-linecap="round">
+    <line x1="130" y1="90" x2="130" y2="230"/>
+    <line x1="170" y1="80" x2="170" y2="240"/>
+    <line x1="210" y1="90" x2="210" y2="230"/>
+    <line x1="250" y1="80" x2="250" y2="240"/>
+  </g>
+  <text x="36" y="40" fill="#cbd5e1" font-family="Inter, sans-serif" font-weight="700" font-size="18">Nucleic acids</text>
+  <text x="80" y="280" fill="#d6e6ff" font-family="Inter, sans-serif" font-size="13">DNA base pairing and RNA coding for proteins</text>
+</svg>

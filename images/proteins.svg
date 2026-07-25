@@ -1,0 +1,12 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="proteinGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c7d2fe" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <path d="M30 35c10-6 20-10 30-10s20 4 30 10v50c-10 6-20 10-30 10s-20-4-30-10V35z" fill="url(#proteinGrad)" />
+  <circle cx="50" cy="60" r="6" fill="#eff6ff" />
+  <circle cx="70" cy="80" r="5" fill="#eff6ff" />
+  <path d="M45 40c10 20 20 30 30 30" fill="none" stroke="#e0e7ff" stroke-width="4" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Water molecule, hydrogen bonding, pH scale and carbonic acid buffer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6f7ff"/>
+      <stop offset="100%" stop-color="#dbefff"/>
+    </linearGradient>
+    <linearGradient id="phgrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="50%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="320" rx="18" fill="url(#sky)" />
+
+  <!-- Title -->
+  <text x="20" y="26" fill="#0f172a" font-family="Inter, sans-serif" font-weight="700" font-size="18">Water & pH</text>
+
+  <!-- Water molecule diagram -->
+  <g transform="translate(40,40)">
+    <!-- Oxygen -->
+    <circle cx="120" cy="60" r="28" fill="#0ea5e9" />
+    <text x="114" y="66" fill="#fff" font-family="Inter, sans-serif" font-weight="700" font-size="18">O</text>
+    <!-- Hydrogens -->
+    <circle cx="68" cy="28" r="16" fill="#7dd3fc" />
+    <text x="62" y="34" fill="#04314a" font-family="Inter, sans-serif" font-weight="700">H</text>
+    <circle cx="172" cy="28" r="16" fill="#7dd3fc" />
+    <text x="166" y="34" fill="#04314a" font-family="Inter, sans-serif" font-weight="700">H</text>
+    <!-- Bonds -->
+    <path d="M102 52 L82 36" stroke="#c8f1ff" stroke-width="3" stroke-linecap="round" />
+    <path d="M138 52 L158 36" stroke="#c8f1ff" stroke-width="3" stroke-linecap="round" />
+    <!-- Partial charges -->
+    <text x="100" y="100" fill="#0f172a" font-family="Inter, sans-serif" font-size="13">δ- on O</text>
+    <text x="40" y="8" fill="#0f172a" font-family="Inter, sans-serif" font-size="13">δ+ on H</text>
+    <text x="180" y="8" fill="#0f172a" font-family="Inter, sans-serif" font-size="13">δ+ on H</text>
+    <!-- Hydrogen bond example -->
+    <circle cx="260" cy="38" r="6" fill="#aeeef8" opacity="0.9" />
+    <path d="M152 42 L254 42" stroke="#6fbbe6" stroke-dasharray="4 6" stroke-width="2" />
+    <text x="200" y="58" fill="#0f172a" font-family="Inter, sans-serif" font-size="12">hydrogen bond</text>
+  </g>
+
+  <!-- pH scale -->
+  <g transform="translate(380,40)">
+    <text x="0" y="0" fill="#0f172a" font-family="Inter, sans-serif" font-weight="700" font-size="14">pH scale</text>
+    <rect x="0" y="16" width="360" height="26" rx="8" fill="url(#phgrad)" />
+    <!-- ticks and labels -->
+    <g fill="#071233" font-family="Inter, sans-serif" font-size="12" font-weight="700">
+      <text x="0" y="62">0</text>
+      <text x="36" y="62">1</text>
+      <text x="72" y="62">2</text>
+      <text x="108" y="62">3</text>
+      <text x="144" y="62">4</text>
+      <text x="180" y="62">5</text>
+      <text x="216" y="62">6</text>
+      <text x="252" y="62">7</text>
+      <text x="288" y="62">8</text>
+      <text x="324" y="62">9</text>
+      <text x="360" y="62">14</text>
+    </g>
+    <!-- marker for neutral pH -->
+    <rect x="252" y="16" width="6" height="26" fill="#0f172a" />
+    <text x="246" y="48" fill="#0f172a" font-family="Inter, sans-serif" font-size="12">pH 7 (neutral)</text>
+  </g>
+
+  <!-- Carbonic acid buffer equation and note -->
+  <g transform="translate(40,200)">
+    <text x="0" y="0" fill="#0f172a" font-family="Inter, sans-serif" font-size="13">Carbonic acid buffer (blood):</text>
+    <text x="0" y="18" fill="#134e7a" font-family="Inter, sans-serif" font-weight="700">CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻</text>
+    <text x="0" y="38" fill="#0f172a" font-family="Inter, sans-serif" font-size="12">Helps resist pH changes; see Henderson–Hasselbalch for calculations.</text>
+  </g>
+
+  <!-- footer small credit -->
+  <text x="20" y="308" fill="#334155" font-family="Inter, sans-serif" font-size="11">Diagram adapted for study; based on Lehninger / Stoker / Harvey & Ferrier</text>
+</svg>

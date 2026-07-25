@@ -1,0 +1,11 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="enzymeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a7f3d0" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+  </defs>
+  <path d="M30 40h60v40a20 20 0 0 1-20 20H50a20 20 0 0 1-20-20V40z" fill="url(#enzymeGrad)" />
+  <path d="M45 50c8 0 12 6 20 6" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+  <path d="M45 64c8 0 12 6 20 6" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+</svg>

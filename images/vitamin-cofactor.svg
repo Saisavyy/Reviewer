@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091223"/>
+      <stop offset="100%" stop-color="#10395e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="320" rx="24" fill="url(#bg6)"/>
+  <circle cx="110" cy="160" r="44" fill="#6cb7ff" opacity="0.9"/>
+  <circle cx="290" cy="160" r="44" fill="#9af2ff" opacity="0.92"/>
+  <text x="76" y="170" fill="#eef6ff" font-family="Inter, sans-serif" font-weight="700" font-size="18">B</text>
+  <text x="266" y="170" fill="#021a2e" font-family="Inter, sans-serif" font-weight="700" font-size="18">A</text>
+  <path d="M148 160 h80" stroke="#5f7fff" stroke-width="14" stroke-linecap="round"/>
+  <text x="44" y="42" fill="#cbd5e1" font-family="Inter, sans-serif" font-weight="700" font-size="18">Vitamins</text>
+  <text x="90" y="280" fill="#d6e6ff" font-family="Inter, sans-serif" font-size="13">Water-soluble and fat-soluble helpers for enzymes</text>
+</svg>

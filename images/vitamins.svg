@@ -1,0 +1,12 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vitaminGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="100%" stop-color="#fb7185" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="55" r="32" fill="url(#vitaminGrad)" />
+  <rect x="50" y="32" width="20" height="16" rx="6" fill="#fff7cd" />
+  <path d="M57 68h12" stroke="#fff7cd" stroke-width="5" stroke-linecap="round" />
+  <path d="M60 48v14" stroke="#fff7cd" stroke-width="5" stroke-linecap="round" />
+</svg>

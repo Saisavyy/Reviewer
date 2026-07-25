@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08101f"/>
+      <stop offset="100%" stop-color="#1f3d62"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="320" rx="24" fill="url(#bg3)"/>
+  <g fill="none" stroke="#8ed5ff" stroke-width="10">
+    <circle cx="100" cy="170" r="40"/>
+    <circle cx="210" cy="120" r="36"/>
+    <circle cx="300" cy="180" r="44"/>
+  </g>
+  <text x="70" y="175" fill="#eff6ff" font-family="Inter, sans-serif" font-size="14" font-weight="700">Glucose</text>
+  <text x="193" y="118" fill="#eff6ff" font-family="Inter, sans-serif" font-size="14" font-weight="700">Fructose</text>
+  <text x="280" y="186" fill="#eff6ff" font-family="Inter, sans-serif" font-size="14" font-weight="700">Glycogen</text>
+  <path d="M140 170 h60" stroke="#5f7fff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M193 156 l60 -20" stroke="#5f7fff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M240 180 h40" stroke="#5f7fff" stroke-width="8" stroke-linecap="round"/>
+  <rect x="80" y="240" width="240" height="36" rx="18" fill="#5f7fff" opacity="0.12"/>
+  <text x="136" y="265" fill="#d1e0ff" font-family="Inter, sans-serif" font-size="14" font-weight="600">Energy storage + structural sugar</text>
+  <text x="38" y="32" fill="#cbd5e1" font-family="Inter, sans-serif" font-weight="700" font-size="18">Carbs</text>
+</svg>
